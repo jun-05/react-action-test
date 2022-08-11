@@ -23,10 +23,12 @@ function App() {
       </button>
       <div>
         <button
-          style={{ background: 'blue' }}
+          style={{ background: 'gray', margin: '5px' }}
           data-testid="on/off-button"
           onClick={() => setDisabled((prev) => !prev)}
-        ></button>
+        >
+          {disabled ? '버튼 활성화' : '버튼 비활성화'}
+        </button>
       </div>
     </div>
   );
