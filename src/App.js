@@ -27,7 +27,7 @@ function App() {
           data-testid="on/off-button"
           onClick={() => setDisabled((prev) => !prev)}
         >
-          {disabled ? '버튼 활성화' : '버튼 비활성화'}
+          {disabled ? '버튼 활성화' : '버튼 비 활성화'}
         </button>
       </div>
     </div>
